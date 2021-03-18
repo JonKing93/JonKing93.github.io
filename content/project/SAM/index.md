@@ -1,6 +1,6 @@
 ---
 title: Reconstructing the Southern Annular Mode
-summary: Assimilating drought Atlases and the PAGES network of temperature sensitive climate proxies to reconstruct the Southern Annular Mode over the Common Era
+summary: Assimilating drought Atlases and the PAGES network of temperature sensitive climate proxies to reconstruct the Southern Annular Mode over the last 2000 years
 tags:
 - DASH
 - Last Millennium DA
@@ -27,4 +27,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-We're reconstructing the Southern Annular Mode over the Common Era by applying data assimilation to drought atlases and the PAGES network of temperature sensitive climate proxies.
+We're reconstructing the Southern Annular Mode (SAM) over the Common Era by applying data assimilation to drought atlases and the PAGES network of temperature sensitive climate proxies. The SAM is a major influence on Southern Hemisphere climate, and has impacts on storm tracks, drought, and ice melt. Understanding its past variations can help characterize its behavior and predict its response to future climate change.
