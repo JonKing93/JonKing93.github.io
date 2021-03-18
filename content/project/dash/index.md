@@ -5,10 +5,9 @@ tags:
 - Data science
 - Deep time DA
 - Last Millennium DA
+date: "2020-01-01"
 
-image:
-  caption: Using DASH to create a state vector ensemble and run a Kalman filter
-  focal_point: Smart
+external_link: ""
 
 links:  
 - icon: globe
