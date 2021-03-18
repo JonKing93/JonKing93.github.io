@@ -1,6 +1,6 @@
 ---
-title: A temperature history of the Northern Hemisphere over the last millennium
-summary: Reconstructing Northern Hemisphere surface temperatures by assimilating the NTREND tree-ring network.
+title: NTREND Assimilation
+summary: Creating a temperature history of the Northern Hemisphere over the last millennium by assimilating by assimilating the NTREND tree-ring network.
 tags:
 - DASH
 - Last Millennium DA
