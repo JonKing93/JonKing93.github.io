@@ -9,6 +9,10 @@ date: "2020-01-01"
 
 external_link: ""
 
+image:
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
+
 links:  
 - icon: globe
   icon-pack: fas
@@ -19,6 +23,12 @@ links:
   icon_pack: fab
   name: Code
   url: https://github.com/JonKing93/DASH
+
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+slides: ""
 
 ---
 
