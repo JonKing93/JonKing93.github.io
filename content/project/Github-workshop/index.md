@@ -7,7 +7,7 @@ tags:
 links:
 - icon: github
   icon-pack: fab
-  link: https://github.com/JonKing93/Github-Tutorial-Workshop
+  link: "https://github.com/JonKing93/Github-Tutorial-Workshop"
 
   ---
 
