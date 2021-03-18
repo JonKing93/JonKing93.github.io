@@ -35,7 +35,6 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
 ---
 
 DASH is a Matlab package that facilitates paleoclimate data assimilation workflows. It includes utilities to build and organize state vectors, estimate proxy values using proxy system models (PSMs), and implement Ensemble Kalman Filters, Particle Filters, and Optimal Sensor tests. It has been used to implement a number of [recent scientific studies](../../tag/DASH).
