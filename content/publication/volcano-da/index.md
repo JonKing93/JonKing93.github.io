@@ -4,7 +4,7 @@ authors:
 - Feng Zhu
 - Julien Emile-Geay
 - Gregory Hakim
-- Jonathan King
+- admin
 - Kevin Anchukaitis
 date: "2020-03-28"
 doi: "https://doi.org/10.1029/2019GL086908"

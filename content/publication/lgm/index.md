@@ -30,5 +30,4 @@ tags:
 - Data Assimilation
 - Last Glacial Maximum
 - Equilibrium Climate Sensitivity
-featured: true
 ---
