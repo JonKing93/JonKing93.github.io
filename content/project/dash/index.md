@@ -6,6 +6,10 @@ tags:
 - Deep time DA
 - Last Millennium DA
 
+image:
+  caption: Using DASH to create a state vector ensemble and run a Kalman filter
+  focal_point: Smart
+
 links:  
 - icon: globe
   icon-pack: fas
@@ -16,10 +20,6 @@ links:
   icon_pack: fab
   name: Code
   url: https://github.com/JonKing93/DASH
-
-image:
-  caption: A script using the Dash code to create a state vector ensemble and run a Kalman Filter.
-  focal_point: Smart
 
 ---
 
