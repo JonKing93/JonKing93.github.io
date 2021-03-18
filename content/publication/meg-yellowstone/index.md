@@ -16,5 +16,4 @@ abstract: "A multireaction chemical equilibria geothermometry (MEG) model applic
 
 summary: A sensitivity analysis of MEG computed reservoir temperatures.
 
-tags:
 ---
