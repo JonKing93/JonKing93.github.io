@@ -16,7 +16,7 @@ links:
 - icon: globe
   icon_pack: fas
   name: Website
-  url: https://jonking93.github.io/Github-Tutorial-Workshop/welcome
+  url: https://jonking93.github.io/Github-Tutorial-Workshop/workshop/welcome
 
 - icon: github
   icon_pack: fab
