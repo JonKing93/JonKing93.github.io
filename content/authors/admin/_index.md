@@ -62,6 +62,6 @@ email: ""
 highlight_name: true
 ---
 
-I'm a data scientist and PhD candidate in Geoscience. I specialize in using data assimilation techniques to reconstruct past climates. In particular, my research focuses combining natural climate archives, like tree-rings and ice-cores, with general circulation climate models. I also teach data science skills workshops with [The Carpentries](https://thecarpentries.org) and University of Arizona to help promote open, reproducible science.
+I'm a data scientist and PhD candidate in Geoscience who specializes in using data assimilation techniques to reconstruct past climates. My research focuses combining natural climate archives, like tree-rings and ice-cores, with general circulation climate models. I also teach data science skills workshops with [The Carpentries](https://thecarpentries.org) and University of Arizona to help promote open, reproducible science.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Jonathan-King-CV.pdf" "newtab" >}}CV{{< /staticref >}} or scroll for more information.
