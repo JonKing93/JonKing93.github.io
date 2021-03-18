@@ -19,8 +19,7 @@ bio: ""
 interests:
 - Data Assimilation
 - Paleoclimate
-- Data science
-- Digital scholarship
+- Teaching data science
 
 # Education to show in About widget
 education:
@@ -39,7 +38,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
+  link: mailto:jonking93@email.arizona.edu
 
 - icon: github
   icon_pack: fab
