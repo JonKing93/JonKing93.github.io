@@ -7,8 +7,8 @@ tags:
 links:
 - icon: github
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: Code
+  url: https://github.com/JonKing93/Github-Tutorial-Workshop
 url_code: ""
 
 ---
