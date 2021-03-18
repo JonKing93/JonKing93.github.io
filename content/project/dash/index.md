@@ -17,6 +17,10 @@ links:
   name: Code
   url: https://github.com/JonKing93/DASH
 
+image:
+  caption: A script using the Dash code to create a state vector ensemble and run a Kalman Filter.
+  focal_point: Smart
+
 ---
 
 DASH is a Matlab package that facilitates paleoclimate data assimilation workflows. It includes utilities to build and organize state vectors, estimate proxy values using proxy system models (PSMs), and implement Ensemble Kalman Filters, Particle Filters, and Optimal Sensor tests. It has been used to implement a number of [recent scientific studies](../../tag/DASH).
