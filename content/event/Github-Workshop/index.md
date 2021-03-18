@@ -5,20 +5,14 @@ event: An introduction to Github for scientists and academic researchers
 event_url: https://jonking93.github.io/Github-Tutorial-Workshop/workshop/welcome
 
 location: University of Arizona
-address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
 
 summary: An introduction to Github for scientists and academic researchers.
 abstract: "This is a website that provides a tutorial designed to introduce scientists and researchers to the Github desktop app and website. The tutorial is a mix of pages introducing fundamental concepts, and hands-on demo exercises."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
+date: "2020-11-17T12:00:00Z"
+date_end: "2020-11-17T14:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
