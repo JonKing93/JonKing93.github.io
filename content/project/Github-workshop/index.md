@@ -9,6 +9,6 @@ links:
   icon-pack: fab
   link: "https://github.com/JonKing93/Github-Tutorial-Workshop"
 
-  ---
+---
 
   Words about the workshop.
