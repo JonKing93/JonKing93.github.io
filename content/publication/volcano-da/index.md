@@ -22,6 +22,7 @@ publication_short: ""
 abstract: "Explosive volcanism imposes impulse‐like radiative forcing on the climate system, providing a natural experiment to study the climate response to perturbation. Previous studies have identified disagreements between paleoclimate reconstructions and climate model simulations with respect to the magnitude and recovery from volcanic cooling, questioning the fidelity of climate model simulations, reconstructions, or both. Using the paleoenvironmental data assimilation framework of the Last Millennium Reanalysis, this study investigates the causes of the disagreements, using both real and simulated data. We demonstrate that discrepancies since 1600 CE can be largely resolved by assimilating tree‐ring density records only, targeting growing season temperature instead of annual temperature, and performing the comparison at proxy locales. Simulations of eruptions earlier in the last millennium may also reflect uncertainties in forcing and modeled aerosol microphysics."
 
 # Summary. An optional shortened abstract.
+summary: Assimilating tree-ring records helps resolve discrepancies between simulated and reconstructed climate reponse to volcanism.
 
 tags:
 - Data Assimilation
