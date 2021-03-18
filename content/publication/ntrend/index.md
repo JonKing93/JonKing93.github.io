@@ -8,7 +8,7 @@ authors:
 - Julien Emile-Geay
 - Feng Zhu
 - Rob Wilson
-date: "*in review*"
+date: "2021"
 doi: "https://doi.org/10.31223/X5GP45"
 
 publication_types: ["3"]
