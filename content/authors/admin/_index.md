@@ -13,7 +13,7 @@ organizations:
 - name: University of Arizona
 
 # Short bio (displayed in user profile at end of posts)
-bio: ""
+bio: "My interests include data assimilation, paleoclimate reconstructions, and teaching data science skills."
 
 # Interests to show in About widget
 interests:
