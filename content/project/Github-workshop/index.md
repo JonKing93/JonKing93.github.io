@@ -5,9 +5,11 @@ tags:
 - Data science
 
 links:
-- icon: github
-  icon-pack: fab
-  link: "https://github.com/JonKing93/Github-Tutorial-Workshop"
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+url_code: ""
 
 ---
 
