@@ -17,4 +17,4 @@ links:
 
 ---
 
-  Words about the workshop.
+This workshop is designed to introduce scientists and academic reseachers to the Github platform. It covers fundamental git concepts (such as cloning, pushing, and branches), and provides demos showing how to implement common tasks using Github Desktop and the online Github website.
