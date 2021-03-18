@@ -2,13 +2,13 @@
 # An instance of the Featured widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featured
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 80
+weight: 40
 
 title: Featured Publications
 subtitle: ""
@@ -35,3 +35,7 @@ design:
   #   4 = Citation (publication only)
   view: 3
 ---
+
+{{% callout note %}}
+Quickly discover relevant content by [filtering publications](./publication/).
+{{% /callout %}}
