@@ -27,5 +27,4 @@ tags:
 - Data Assimilation
 - Last Millennium
 - Volcanism
-featured: true
 ---

@@ -19,7 +19,8 @@ bio: ""
 interests:
 - Data Assimilation
 - Paleoclimate
-- Teaching data science
+- Data science
+- Digital scholarship
 
 # Education to show in About widget
 education:
