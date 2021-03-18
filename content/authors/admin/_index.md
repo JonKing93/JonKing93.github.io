@@ -53,7 +53,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: uploads/test-CV.pdf
+  link: uploads/Jonathan-King-CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -64,4 +64,4 @@ highlight_name: true
 
 Write a bio here.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}CV{{< /staticref >}} or scroll for more information.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Jonathan-King-CV.pdf" "newtab" >}}CV{{< /staticref >}} or scroll for more information.
