@@ -1,8 +1,10 @@
 ---
 title: DASH
-summary: A Matlab package for paleoclimate data assimilation.
+summary: A Matlab package for paleoclimate data assimilation workflow.
 tags:
-- DASH
+- Data science
+- Deep time DA
+- Last Millennium DA
 
 url_code: "https://github.com/JonKing93/DASH"
 ---
