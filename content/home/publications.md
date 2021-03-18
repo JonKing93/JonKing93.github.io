@@ -37,4 +37,4 @@ design:
   view: 1
 ---
 
-[See all publications>](./publications)
+[See all publications>](./publications/)
