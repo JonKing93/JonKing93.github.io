@@ -5,7 +5,7 @@ tags:
 - Data science
 
 links:
-- icon: twitter
+- icon: github
   icon_pack: fab
   name: Follow
   url: https://twitter.com/georgecushen
