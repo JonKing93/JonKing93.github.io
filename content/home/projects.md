@@ -29,6 +29,10 @@ content:
     tag: '*'
   - name: Data science
     tag: Data science
+  - name: Last Millennium DA
+    tag: Last Millennium DA
+  - name: Deep time DA
+    tag: Deep time DA
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
