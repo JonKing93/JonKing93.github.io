@@ -6,7 +6,17 @@ tags:
 - Deep time DA
 - Last Millennium DA
 
-url_code: "https://github.com/JonKing93/DASH"
----
+links:  
+- icon: globe
+  icon-pack: fas
+  name: Website
+  url: https://jonking93.github.io/DASH/Tutorials/welcome
 
-DASH is a Matlab package that facilitates paleoclimate data assimilation workflows. It includes utilities to build and organize state vectors, estimate proxy values using proxy system models (PSMs), and implements Ensemble Kalman Filters, Particle Filters, and Optimal Sensor tests. It has been used to implement a number of [recent scientific studies](../../tag/DASH).
+- icon: github
+  icon_pack: fab
+  name: Code
+  url: https://github.com/JonKing93/DASH
+
+  ---
+
+DASH is a Matlab package that facilitates paleoclimate data assimilation workflows. It includes utilities to build and organize state vectors, estimate proxy values using proxy system models (PSMs), and implement Ensemble Kalman Filters, Particle Filters, and Optimal Sensor tests. It has been used to implement a number of [recent scientific studies](../../tag/DASH).
