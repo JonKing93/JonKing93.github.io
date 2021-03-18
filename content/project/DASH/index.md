@@ -16,10 +16,16 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
+- icon: globe
+  icon_pack: fas
+  name: Website
+  url: https://jonking93.github.io/DASH/Tutorials/welcome
+
+- icon: github
   icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
+  name: Code
+  url: https://github.com/JonKing93/DASH
+
 url_code: ""
 url_pdf: ""
 url_slides: ""
