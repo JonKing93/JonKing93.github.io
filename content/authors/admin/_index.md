@@ -19,7 +19,7 @@ bio: "My interests include data assimilation, paleoclimate reconstructions, and 
 interests:
 - Data Assimilation
 - Paleoclimate
-- Teaching data science
+- Data science for open research
 
 # Education to show in About widget
 education:
