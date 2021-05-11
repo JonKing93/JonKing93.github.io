@@ -24,4 +24,8 @@ tags:
 - Last Millennium
 - NTREND
 - featured
+
+links:
+- name: "Preprint"
+  url: "test1"
 ---
