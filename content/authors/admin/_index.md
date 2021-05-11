@@ -53,7 +53,7 @@ social:
 # and uncomment the lines below.
 - icon: cv
   icon_pack: ai
-  link: uploads/jonathan-king-cv.pdf
+  link: uploads/rename.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
