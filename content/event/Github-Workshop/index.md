@@ -18,7 +18,8 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 
 authors: ["Jonathan King"]
-tags: []
+tags:
+- Data Science
 
 # Is this a featured talk? (true/false)
 featured: false
