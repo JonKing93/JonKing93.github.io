@@ -29,6 +29,8 @@ tags:
 - DASH
 - Data Assimilation
 - Last Glacial Maximum
-- Equilibrium Climate Sensitivity
 - featured
+
+url_pdf: https://eartharxiv.org/repository/object/502/download/1084/
+url_dataset: https://doi.pangaea.de/10.1594/PANGAEA.920596
 ---
