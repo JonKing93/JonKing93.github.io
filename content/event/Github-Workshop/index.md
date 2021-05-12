@@ -28,10 +28,10 @@ links:
   icon_pack: fas
   name: Website
   url: https://jonking93.github.io/Github-Tutorial-Workshop/workshop/welcome
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+- icon_pack: fab
+  icon: github
+  name: Code
+  url: https://github.com/JonKing93/Github-Tutorial-Workshop
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
