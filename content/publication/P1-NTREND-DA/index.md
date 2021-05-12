@@ -9,13 +9,14 @@ authors:
 - Feng Zhu
 - Rob Wilson
 date: "2021"
+doi: 10.31223/X5GP45
 
 publication_types: ["3"]
 publication: "*Journal of Climate*"
 
-abstract: "Paleoclimate field reconstructions using data assimilation commonly employ large proxy networks, which are often composed of records that have a complex range of sensitivities to the target climate field. This can introduce biases into reconstructions or decrease overall skill. Smaller networks of highly-sensitive proxies provide an alternative, but have not been extensively used for assimilation and their strengths and limitations are less well understood. Here, we reconstruct Northern Hemisphere summer temperature anomalies over the last millennium by assimilating the NTREND network, a spatially and temporally limited collection of highly temperature-sensitive tree-ring records. Pseudo-proxy experiments indicate that the reconstruction can be sensitive to biases in the climate model prior, so we perform 10 assimilations each using a different model prior. Reconstructed temperature anomalies are most sensitive to prior selection when the network becomes sparse in space and time, but show greater consistency as the network grows. The method also underestimates temporal variability with a reduced network or in regions distal to the proxies. The effects of network attrition emphasize the importance of analyzing temperature anomalies in conjunction with reconstruction uncertainty, which emerges naturally for spatial fields from our ensemble method. A comparison of our reconstruction and five existing paleo-temperature products reveals large differences in the spatial patterns and magnitudes of reconstructed temperature anomalies in response to radiative forcing. These extant uncertainties call for development of a renewed paleoclimate reconstruction intercomparison framework for systematically examining the consequences of network composition and reconstruction methodological choices, as well as for expanded collection of new, longer, and highly-sensitive proxy data."
+abstract: "We use the Northern Hemisphere Tree-Ring Network Development (NTREND) tree-ring database to examine the effects of using a small, highly-sensitive proxy network for paleotemperature data assimilation over the last millennium. We first evaluate our methods using pseudo-proxy experiments.  These indicate that spatial assimilations using this network are skillful in the extratropical Northern Hemisphere and improve on previous NTREND reconstructions based on Point-by-Point regression. We also find our method is sensitive to climate model biases when the number of sites becomes small. Based on these experiments, we then assimilate the real NTREND network. To quantify model prior uncertainty, we produce 10 separate reconstructions, each assimilating a different climate model. These reconstructions are most dissimilar prior to 1100 CE, when the network becomes sparse, but show greater consistency as the network grows. Temporal variability is also underestimated before 1100 CE. Our assimilation method produces spatial uncertainty estimates and these identify treeline North America and eastern Siberia as regions that would most benefit from development of new millennial-length temperature-sensitive tree-ring records. We compare our multi-model mean reconstruction to five existing paleo-temperature products to examine the range of reconstructed responses to radiative forcing. We find substantial differences in the spatial patterns and magnitudes of reconstructed responses to volcanic eruptions and in the transition between the Medieval epoch and Little Ice Age.  These extant uncertainties call for the development of a paleoclimate reconstruction intercomparison framework for systematically examining the consequences of proxy network composition and reconstruction methodology and for continued expansion of tree-ring proxy networks."
 
-summary: We assimilate a highly-sensitive, curated tree-ring network to reconstruct Northern Hemisphere temperatures over the Last Millennium.
+summary: We reconstruct Nothern Hemisphere temperatures over the last millennium by assimilating a highly-sensitive, curated tree-ring network.
 
 tags:
 - DASH
@@ -23,7 +24,5 @@ tags:
 - Last Millennium
 - featured
 
-links:
-- name: "PDF"
-  url: "uploads/King_et_al_2021.pdf"
+url_pdf: uploads/King_et_al_2021.pdf
 ---
