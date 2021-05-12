@@ -29,4 +29,6 @@ tags:
 - Last Millennium
 - Volcanism
 - featured
+
+url_pdf: https://www.essoar.org/pdfjs/10.1002/essoar.10501607.1
 ---
