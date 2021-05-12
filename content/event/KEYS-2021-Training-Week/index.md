@@ -2,11 +2,10 @@
 title: KEYS 2021 Training Week
 
 event: Wowchemy Conference
-event_url: https://example.org
-
-
-summary: ""
-abstract: "L"
+event_url:
+location:
+summary:
+abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -14,7 +13,8 @@ date: "2021-06-07T08:00:00Z"
 date_end: "2021-06-11T12:00:00Z"
 all_day: true
 
-
+# Schedule page publish date (NOT talk date).
+publishDate: "2017-01-01T00:00:00Z"
 
 authors: []
 tags: []
