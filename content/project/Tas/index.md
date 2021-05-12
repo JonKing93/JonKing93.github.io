@@ -11,7 +11,7 @@ date: "2021-01-04"
 external_link: ""
 
 image:
-  caption: ""
+  caption: "Bushbashing in search of fossil wood"
   focal_point: Smart
 
 links:
@@ -28,7 +28,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-In December 2019, I helped with a tree-ring sampling effort led by Kathy Allen on the slopes of Mt. Wylly in Tasmania. We sampled a mix of live and dead trees, but were particularly searching for fossil wood records to help extend tree ring chronologies over the last several millennia. These tree ring records can help reconstruct regional climate effects and the Southern Annular Mode.
+In December 2019, I helped with a Tasmanian tree-ring sampling effort led by Kathy Allen on the slopes of Mt. Wylly. We sampled a mix of live and dead trees, but were particularly searching for fossil wood records to help extend tree ring chronologies over the last several millennia. These tree ring records can help reconstruct regional climate effects and the Southern Annular Mode.
 
 ![This is a test photo](uploads/photos/DSCN7423.jpg "This is alt text")
 
