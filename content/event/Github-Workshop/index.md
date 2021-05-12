@@ -7,7 +7,7 @@ event_url: https://jonking93.github.io/Github-Tutorial-Workshop/workshop/welcome
 location: University of Arizona
 
 summary: An introduction to Github for scientists and academic researchers.
-abstract: "This is a website that provides a tutorial designed to introduce scientists and researchers to the Github desktop app and website. The tutorial is a mix of pages introducing fundamental concepts, and hands-on demo exercises."
+abstract: "This is a tutorial designed to introduce scientists and researchers to the Github desktop app and website. The tutorial is a mix of pages introducing fundamental concepts, and hands-on demo exercises."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -16,9 +16,8 @@ date_end: "2020-11-17T14:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
 
-authors: []
+authors: ["Jonathan King"]
 tags: []
 
 # Is this a featured talk? (true/false)
