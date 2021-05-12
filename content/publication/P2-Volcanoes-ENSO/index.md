@@ -1,5 +1,5 @@
 ---
-title: "Test title"
+title: "Volcanoes and ENSO: a re-appraisal with the Last Millennium Reanalysis"
 authors:
 - Feng Zhu
 - Julien Emile-Geay
