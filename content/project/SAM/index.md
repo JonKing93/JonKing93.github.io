@@ -1,6 +1,6 @@
 ---
-title: Reconstructing the Southern Annular Mode
-summary: Assimilating the SAM with drought Atlases and PAGES.
+title: Assimilating the Southern Annular Mode
+summary: Reconstructing the SAM with by assimilating drought atlases and PAGES.
 tags:
 - DASH
 - Data Assimilation
