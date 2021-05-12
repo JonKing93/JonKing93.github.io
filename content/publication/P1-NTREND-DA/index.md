@@ -26,5 +26,5 @@ tags:
 links:
 - name: "PDF"
   url: "uploads/King_et_al_2021.pdf"
-  weight: 1
+  weight: -1
 ---
