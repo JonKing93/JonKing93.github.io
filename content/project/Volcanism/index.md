@@ -16,6 +16,10 @@ image:
   focal_point: Smart
 
 links:
+- name: Zhu 2020
+  url: https://doi.org/10.1029/2019GL086908
+- name: Zhu 2021
+  url: https://doi.org/10.21203/rs.3.rs-130239/v1
 
 url_code: ""
 url_pdf: ""
@@ -29,4 +33,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-We're using data assimilation to probe the sensitivity of the climate system to volcanic eruptions throughout the Common Era.
+We're using data assimilation to examine the sensitivity of the climate system to volcanic eruptions throughout the Common Era. Check out Feng Zhu's recent papers [probing discrepancies between reconstructions and models](../../publication/4-Volcanic-DA) and [testing the ENSO response to volcanism](../../publication/P2-Volcanoes-ENSO).
