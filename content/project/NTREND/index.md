@@ -1,10 +1,11 @@
 ---
 title: NTREND Assimilation
-summary: Creating a temperature history of the Northern Hemisphere over the last millennium by assimilating by assimilating the NTREND tree-ring network.
+summary: Reconstructing Northern Hemisphere temperatures with the NTREND tree-ring network.
 tags:
 - DASH
-- Last Millennium DA
-- NTREND
+- Data Assimilation
+- Last Millennium
+- Research
 date: "2021-01-01"
 
 # Optional external URL for project (replaces project detail page).
@@ -14,15 +15,8 @@ image:
   caption: ""
   focal_point: Smart
 
-links:
-- name: Preprint
-  url: https://eartharxiv.org/repository/view/1705/
-
-- name: DOI
-  url: https://eartharxiv.org/repository/view/1705/
-
-- name: Code
-  url: https://eartharxiv.org/repository/view/1705/
+url_pdf: uploads/King_et_al_2021.pdf
+doi: 10.31223/X5GP45
 
 url_code: ""
 url_pdf: ""
