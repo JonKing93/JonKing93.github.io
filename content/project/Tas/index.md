@@ -28,4 +28,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-In December 2019, I participated in a tree-ring sampling campaign on Mt. Wylly Tasmania.
+In December 2019, I helped with a tree-ring sampling effort on the slopes of Mt. Wylly in Tasmania.
