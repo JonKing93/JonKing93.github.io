@@ -25,4 +25,7 @@ tags:
 - featured
 
 url_pdf: uploads/King_et_al_2021.pdf
+
+projects:
+- NTREND
 ---
