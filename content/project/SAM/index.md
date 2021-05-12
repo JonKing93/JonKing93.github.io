@@ -1,9 +1,11 @@
 ---
 title: Reconstructing the Southern Annular Mode
-summary: Assimilating drought Atlases and the PAGES network of temperature sensitive climate proxies to reconstruct the Southern Annular Mode over the last 2000 years
+summary: Assimilating the SAM with drought Atlases and PAGES.
 tags:
 - DASH
-- Last Millennium DA
+- Data Assimilation
+- Last Millennium
+- Research
 - SAM
 date: "2021-01-04"
 

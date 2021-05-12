@@ -36,4 +36,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-DASH is a Matlab package that facilitates paleoclimate data assimilation workflows. It includes utilities to build and organize state vectors, estimate proxy values using proxy system models (PSMs), and implement Ensemble Kalman Filters, Particle Filters, and Optimal Sensor tests. It has been used to implement a number of [recent scientific studies](../../tag/DASH).
+DASH is a Matlab package that facilitates paleoclimate data assimilation workflows. It includes utilities to build and organize state vectors, estimate proxy values using proxy system models (PSMs), and implement Ensemble Kalman Filters, Particle Filters, and Optimal Sensor tests. It has been used to implement a number of [recent scientific studies](../../tag/studies-using-dash).
