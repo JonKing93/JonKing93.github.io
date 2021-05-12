@@ -16,11 +16,12 @@ image:
   focal_point: Smart
 
 links:
+- name: Tierney 2020
+  url: https://doi.org/10.1038/s41586-020-2617-x
+- name: Osman 2021
+  url: https://doi.org/10.31223/X5S31Z
 
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
