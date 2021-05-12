@@ -31,7 +31,7 @@ content:
     tag: Research
   - name: Data Science
     tag: Data Science
-  - name: Collaboration
+  - name: Collaborations
     tag: Collaboration
 
 design:
