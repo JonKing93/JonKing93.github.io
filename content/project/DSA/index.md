@@ -11,7 +11,7 @@ external_link: ""
 
 image:
   caption:
-  focal_point: Smart
+  focal_point: center
 
 links:
 - name: DSA Program
