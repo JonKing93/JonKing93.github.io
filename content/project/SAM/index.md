@@ -4,7 +4,7 @@ summary: Reconstructing the SAM by assimilating drought atlases and PAGES.
 tags:
 - DASH
 - Data Assimilation
-- Last Millennium
+- Common Era
 - Research
 - SAM
 date: "2021-01-04"

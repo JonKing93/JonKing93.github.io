@@ -2,7 +2,7 @@
 title: Mt. Wylly Sampling Campaign
 summary: Collecting Tasmanian tree ring records.
 tags:
-- Last Millennium
+- Common Era
 - Collaboration
 - SAM
 date: "2021-01-04"

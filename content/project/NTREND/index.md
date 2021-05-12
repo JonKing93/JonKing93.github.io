@@ -1,10 +1,10 @@
 ---
 title: NTREND Assimilation
-summary: Reconstructing Northern Hemisphere temperatures with the NTREND tree-ring network.
+summary: Reconstructing Northern Hemisphere temperatures using NTREND.
 tags:
 - DASH
 - Data Assimilation
-- Last Millennium
+- Common Era
 - Research
 date: "2021-01-01"
 

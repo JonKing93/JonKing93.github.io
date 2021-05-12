@@ -3,7 +3,7 @@ title: Volcanic Assimilations
 summary: Probing climate sensitivity to volcanism using data assimilation.
 tags:
 - Data Assimilation
-- Last Millennium
+- Common Era
 - Volcanism
 - Collaboration
 date: "2021-01-04"

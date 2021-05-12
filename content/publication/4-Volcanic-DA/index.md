@@ -26,7 +26,7 @@ summary: Assimilating tree-ring records helps resolve discrepancies between simu
 
 tags:
 - Data Assimilation
-- Last Millennium
+- Common Era
 - Volcanism
 - featured
 
