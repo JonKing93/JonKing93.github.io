@@ -29,4 +29,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-We're using data assimilation to constrain climate reconstructions of the Last Glacial Maximum (LGM). Check out [Jess Tierney's paper](./publication/5-lgm-sst), which uses reconstructed SSTs at the LGM to constrain ECS, and [Matt Osman's new reconstruction](./publication/p3-lgm-surface-t) of surface temperatures from the LGM to present.
+We're using data assimilation to constrain climate reconstructions of the Last Glacial Maximum (LGM). Check out [Jess Tierney's paper](../../publication/5-lgm-sst), which uses reconstructed SSTs at the LGM to constrain ECS, and [Matt Osman's new reconstruction](../../publication/p3-lgm-surface-t) of surface temperatures from the LGM to present.
