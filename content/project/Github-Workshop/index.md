@@ -2,7 +2,7 @@
 title: Github Workshop
 summary: An introduction to Github for scientists and academic researchers.
 tags:
-- Data science
+- Data Science
 date: "2021-01-02"
 
 # Optional external URL for project (replaces project detail page).
@@ -36,4 +36,4 @@ url_video: ""
 slides: ""
 ---
 
-This workshop is designed to introduce scientists and academic reseachers to the Github platform. It covers fundamental git concepts (such as cloning, pushing, and branches), and provides demos showing how to implement common tasks using Github Desktop and the online Github website.
+This workshop is designed to introduce scientists and academic reseachers to the Github platform. It covers fundamental git concepts (such as cloning, pushing, and branches), and provides demos showing how to implement common tasks using Github Desktop and the online Github website. This tutorial was a product of the [Digital Scholarship and Data Science Fellowship](https://new.library.arizona.edu/ds2f) at the University of Arizona.

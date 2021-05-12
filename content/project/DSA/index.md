@@ -1,6 +1,6 @@
 ---
 title: Data Science Ambassador
-summary: Providing data science assistance for the UA College of Science
+summary: Providing data science assistance for the UA College of Science.
 
 tags:
 - Data Science
@@ -10,7 +10,7 @@ date: "2021-01-01"
 external_link: ""
 
 image:
-  caption: Data Science Institute Logo
+  caption:
   focal_point: Smart
 
 links:

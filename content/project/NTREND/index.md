@@ -12,7 +12,7 @@ date: "2021-01-01"
 external_link: ""
 
 image:
-  caption: ""
+  caption: "Assimilation spatial skill"
   focal_point: Smart
 
 url_pdf: uploads/King_et_al_2021.pdf
