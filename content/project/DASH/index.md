@@ -3,9 +3,7 @@ title: DASH
 summary: A Matlab package for paleoclimate data assimilation workflow.
 tags:
 - DASH
-- Data science
-- Last Millennium DA
-- Deep time DA
+- Data Assimilation
 date: "2021-01-03"
 
 # Optional external URL for project (replaces project detail page).
@@ -19,7 +17,7 @@ links:
 - icon: globe
   icon_pack: fas
   name: Website
-  url: https://jonking93.github.io/DASH/Tutorials/welcome
+  url: https://jonking93.github.io/DASH/
 
 - icon: github
   icon_pack: fab
