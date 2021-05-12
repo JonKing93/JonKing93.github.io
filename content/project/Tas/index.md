@@ -32,4 +32,4 @@ In December 2019, I helped with a Tasmanian tree-ring sampling effort led by Kat
 
 ![This is a test photo](uploads/photos/DSCN7423.jpg "This is alt text")
 
-![This is a second test photo](uploads/photos/IMG_2634.jpg "More text")
+![This is a second test photo](IMG_2642.jpg "More text")
