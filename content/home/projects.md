@@ -27,8 +27,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Data science
-    tag: Data science
+  - name: Research
+    tag: Research
+  - name: Data Science
+    tag: Data Science
+  - name: Collaboration
+    tag: Collaboration
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
