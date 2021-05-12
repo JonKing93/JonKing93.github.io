@@ -24,8 +24,6 @@ tags:
 - featured
 
 links:
-- name: "Preprint"
-  url: "test1"
-- name: "DOI"
-  url: "https://doi.org/10.31223/X5GP45"
+- name: "PDF"
+  url: "uploads/King_et_al_2021.pdf"
 ---
