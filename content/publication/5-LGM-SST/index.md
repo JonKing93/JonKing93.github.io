@@ -27,7 +27,7 @@ summary: Assimilating sea surface temperature proxies over the Last Glacial Maxi
 
 tags:
 - DASH
-- DASH Paper
+- Studies using DASH
 - Data Assimilation
 - Last Glacial Maximum
 - featured
