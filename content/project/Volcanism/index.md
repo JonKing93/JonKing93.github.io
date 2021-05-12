@@ -1,10 +1,11 @@
 ---
-title: Mt. Wylly Sampling Campaign
-summary: Collecting Tasmanian tree ring records.
+title: Volcanic Assimilations
+summary: Probing climate sensitivity to volcanism using data assimilation.
 tags:
+- Data Assimilation
 - Last Millennium
+- Volcanism
 - Collaboration
-- SAM
 date: "2021-01-04"
 
 # Optional external URL for project (replaces project detail page).
@@ -28,4 +29,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 ---
 
-In December 2019, I helped with a tree-ring sampling effort on the slopes of Mt. Wylly in Tasmania.
+We're using data assimilation to probe the sensitivity of the climate system to volcanic eruptions throughout the Common Era.
