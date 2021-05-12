@@ -7,7 +7,7 @@ authors:
 - admin
 - Kevin Anchukaitis
 date: "2020-03-28"
-doi: "https://doi.org/10.1029/2019GL086908"
+doi: "10.1029/2019GL086908"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

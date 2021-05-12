@@ -8,7 +8,7 @@ authors:
 - Gregory Hakim
 - Christopher Poulsen
 date: "2020-08-26"
-doi: "https://doi.org/10.1038/s41586-020-2617-x"
+doi: "10.1038/s41586-020-2617-x"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

@@ -7,7 +7,7 @@ authors:
 - DK Nordstrom
 - RB McCleskey
 date: "2016-12-15"
-doi: "https://doi.org/10.1016/j.jvolgeores.2016.10.010"
+doi: "10.1016/j.jvolgeores.2016.10.010"
 
 publication_types: ["2"]
 publication: "*Journal of Volcanology and Geothermal Research, 328*"

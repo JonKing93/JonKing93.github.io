@@ -5,7 +5,7 @@ authors:
 - admin
 - Joseph Belbruno
 date: "2015-11-01"
-doi: "https://doi.org/10.1016/j.cplett.2015.10.007"
+doi: "10.1016/j.cplett.2015.10.007"
 
 publication_types: ["2"]
 publication: "*Chemical Physics Letters, 640*"

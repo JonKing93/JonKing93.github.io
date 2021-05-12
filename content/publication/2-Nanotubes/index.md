@@ -6,7 +6,7 @@ authors:
 - admin
 - Joseph Belbruno
 date: "2016-07-13"
-doi: "https://doi.org/10.1007/s10853-016-0205-0"
+doi: "10.1007/s10853-016-0205-0"
 
 publication_types: ["2"]
 publication: "*Journal of Materials Science, 51*(21)"
