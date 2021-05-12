@@ -29,6 +29,7 @@ summary: "We reconstruct surface temperatures since the Last Glacial Maximum usi
 
 tags:
 - DASH
+- DASH Paper
 - Data Assimilation
 - Last Glacial Maximum
 - featured

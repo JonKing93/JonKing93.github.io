@@ -20,6 +20,7 @@ summary: We reconstruct Nothern Hemisphere temperatures over the last millennium
 
 tags:
 - DASH
+- DASH Paper
 - Data Assimilation
 - Last Millennium
 - featured

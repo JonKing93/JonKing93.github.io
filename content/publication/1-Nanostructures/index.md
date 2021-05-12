@@ -15,6 +15,5 @@ abstract: "The electronic and geometrical properties of endohedrally and substit
 summary: A characterization of cadmium-sulfide nanostructures.
 
 tags:
-- nanostructures
 
 ---
