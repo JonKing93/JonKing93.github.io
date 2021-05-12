@@ -2,18 +2,18 @@
 title: Resbaz 2021
 
 event: Research Bazaar 2021
-event_url: ""
+event_url: "https://hackmd.io/@ResBaz21/directory"
 
 location: University of Arizona
 
-summary: Workshops on many data science tools including Python, git, Bash, and more.
-abstract: ""
+summary: "Workshops on many data science tools including Python, git, Bash, and more."
+abstract: "Workshops on many data science tools including Python, git, Bash, and more."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-05-19T12:00:00Z"
-date_end: "2021-05-19T14:00:00Z"
-all_day: false
+date: "2021-05-17T09:00:00Z"
+date_end: "2021-05-21T17:00:00Z"
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -25,6 +25,14 @@ tags: []
 featured: false
 
 links:
+- icon_pack: far
+  icon: calendar-alt
+  name: Schedule
+  url: https://researchbazaar.arizona.edu/resbaz/resbazTucson2021/
+- icon_pack: fas
+  icon: globe
+  name: Website
+  url: https://hackmd.io/@ResBaz21/directory
 
 url_code: ""
 url_pdf: ""
