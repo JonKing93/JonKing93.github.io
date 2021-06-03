@@ -1,5 +1,5 @@
 ---
-title: "Properties of transition metal doped cadmium sulfide hexamers and dódecamers"
+title: "Properties of transition metal doped cadmium sulfide hexamers and dodecamers"
 authors:
 - Stefano Poggió
 - admin
