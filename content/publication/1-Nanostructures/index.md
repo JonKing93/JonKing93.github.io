@@ -1,7 +1,7 @@
 ---
 title: "Properties of transition metal doped cadmium sulfide hexamers and dodecamers"
 authors:
-- Stefano Poggio
+- Stefano Poggió
 - admin
 - Joseph Belbruno
 date: "2015-11-01"
