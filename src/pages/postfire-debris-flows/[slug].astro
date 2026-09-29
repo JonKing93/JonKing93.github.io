@@ -116,6 +116,45 @@ const { Content } = await entry.render();
         </a>
       )
     }
+
+    {
+      project.data && (
+        <a
+          href={project.data}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-outline btn-sm gap-2 flex items-center"
+        >
+          Data Archive
+        </a>
+      )
+    }
+
+    {
+      project.spec && (
+        <a
+          href={project.spec}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-outline btn-sm gap-2 flex items-center"
+        >
+          Data Spec
+        </a>
+      )
+    }
+
+    {
+      project.map && (
+        <a
+          href={project.map}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-outline btn-sm gap-2 flex items-center"
+        >
+          Web Map
+        </a>
+      )
+    }
     </div>
 
     {

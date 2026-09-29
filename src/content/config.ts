@@ -17,6 +17,11 @@ const projectSchema = z.object({
   // Paper Links
   doi: z.string().url().optional(),
   pdf: z.string().optional(),
+
+  //Postfire Links
+  data: z.string().url().optional(),
+  spec: z.string().url().optional(),
+  map: z.string().url().optional(),
 });
 
 export const collections = {
