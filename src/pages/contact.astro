@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Contact Me" sideBarActiveItemID="contact">
+  <div class="pb-12 mt-5">
+    <div class="text-3xl font-bold">Get in Touch</div>
+    <p class="py-2 text-base-content/70">
+      Whether you are reaching out about an open role, checking out my code, or have questions about my research, feel free to connect via any of the channels below.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Direct Email Card -->
+    <div class="card bg-base-200 border border-base-300 shadow-sm">
+      <div class="card-body">
+        <h2 class="card-title text-primary">Direct Email</h2>
+        <p class="text-sm text-base-content/70">Feel free to copy my address directly or launch your mail client.</p>
+        <div class="mt-4">
+          <!-- Text is highly visible and completely copy-selectable for hiring managers -->
+          <code class="block bg-base-300 p-3 rounded-lg text-sm font-mono text-center select-all break-all border border-base-400">
+            jonking93@gmail.com
+          </code>
+        </div>
+        <div class="card-actions justify-end mt-4">
+          <a href="mailto:jonking93@gmail.com" class="btn btn-primary btn-sm">Open Mail App</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Professional Profiles Card -->
+    <div class="card bg-base-200 border border-base-300 shadow-sm">
+      <div class="card-body">
+        <h2 class="card-title text-secondary">Professional Links</h2>
+        <p class="text-sm text-base-content/70">Explore my repositories and academic publications.</p>
+        <div class="flex flex-col gap-2 mt-2">
+          
+          <a href="https://github.com/JonKing93" target="_blank" class="btn btn-outline btn-sm justify-between">
+            <img 
+                src="/icons/github.svg" 
+                alt="Github" 
+                class="w-6 h-6 inline-block" 
+            />
+            Github <span>↗</span>
+          </a>
+          
+          <a href="https://scholar.google.com/citations?user=z57Hk4oAAAAJ" target="_blank" class="btn btn-outline btn-sm justify-between">
+            <img 
+                src="/icons/google-scholar.svg" 
+                alt="Google Scholar" 
+                class="w-6 h-6 inline-block" 
+            />
+            Google Scholar <span>↗</span>
+          </a>
+
+          <a href="https://orcid.org/0000-0003-0834-2200" target="_blank" class="btn btn-outline btn-sm justify-between">
+            <img 
+                src="/icons/orcid.svg" 
+                alt="ORCID" 
+                class="w-6 h-6 inline-block" 
+            />
+            ORCID <span>↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
