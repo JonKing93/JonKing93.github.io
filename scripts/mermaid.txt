@@ -1,0 +1,20 @@
+# This is the mermaid code used to generate the postfire pipeline flowchart
+
+flowchart LR
+    ground("Ground Assessment")
+    geophysical("Geophysical Data")
+    assessment("Produces hazard assessment")
+    spec("Conforms to data spec")
+    aws["S3 Archive\nDeploys Web Map"]
+    sciencebase["ScienceBase\nPublic Data archive"]
+    nws["NWS Collaboration"]
+
+    ground --> ocelote
+    geophysical --> ocelote
+    subgraph ocelote["ocelote"]
+        assessment
+        spec
+    end
+    ocelote -->|Deploy| aws
+    ocelote -->|publish| sciencebase
+    ocelote -->|share| nws

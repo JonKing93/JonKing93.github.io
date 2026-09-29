@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Climate Data Assimilation" sideBarActiveItemID="da">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Climate Data Assimilation</div>
+  </div>
+
+<div class="py-2 mb-6">
+    <text class="text-lg prose">
+    My doctoral research used climate data assimilation to reconstruct past climates.
+    Data assimilation methods are statistical frameworks that integrate climate model
+    simulations with observational products and natural climate archives. Synthesizing
+    these data sources provides a more complete understanding of Earth's climate than a
+    single source alone. My work used these methods to examine baseline climate dynamics, 
+    in order to better understand future climate change.
+    More specifically, I specialized in the development and application of 
+    <a href="https://en.wikipedia.org/wiki/Kalman_filter">Kalman filter</a>, 
+    <a href="https://en.wikipedia.org/wiki/Particle_filter">particle filter</a>, 
+    and <a href="https://journals.ametsoc.org/view/journals/clim/28/19/jcli-d-14-00802.1.xml">optimal sensor</a>
+    assimilation techniques.
+</div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">Related Work</div>
+  </div>
+
+  <HorizontalCard
+    title="DASH"
+    img="/da/dash.png"
+    desc="A MATLAB toolbox for paleoclimate data assimilation workflows."
+    url="/climate-data-assimilation/dash"
+    badge="GMD"
+  /> 
+
+  <div class="divider my-0"></div>
+
+    <HorizontalCard
+    title="Paleoclimate Data Assimilation Review"
+    img="/da/review.png"
+    desc="Check out our Annual Reviews article on paleoclimate data assimilation techniques."
+    url="/climate-data-assimilation/review"
+    badge="Annual Review"
+  />
+
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="LGM Surface Temperatures"
+    img="/da/lgm.png"
+    desc="Check out our two Nature papers reconstructing global surface temperatures at the last glacial maximum."
+    url="/climate-data-assimilation/lgm"
+    badge="Nature"
+  />
+
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Southern Annular Mode"
+    img="/da/sam.png"
+    desc="Reconstructing the Southern Annular Mode over the last 2,000 years to better understand the southern hemisphere's climate."
+    url="/climate-data-assimilation/sam"
+    badge="NComms"
+  />
+

@@ -1,11 +1,47 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<BaseLayout sideBarActiveItemID="home">
+  <div class="pb-12 mt-5">
+    <div class="text-5xl font-bold">Jonathan King</div>
+    <div class="text-3xl py-3 font-bold">Natural Hazards Software Engineer | Climate Scientist</div>
+    <div class="py-2">
+      <text class="text-lg">
+        I'm a natural hazard software engineer and computational geoscientist working for the USGS.
+        Currently, I'm building operational systems for the Landslide Hazards Program.
+        Previously, I completed a doctorate in climatology at the University of Arizona,
+        where I specialized in climate data assimilation. I'm interested in natural hazards,
+        climate solutions, and open science. Check out my projects below for more information on my work.
+      </text>
+    </div>
+    <div class="mt-8">
+      <a href="/contact" class="btn btn-outline ml-5">Let's Connect!</a>
+      <a href="/resume.pdf" class="btn btn-outline ml-5">My Resume</a>
+    </div>
+  </div>
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">My Projects</div>
+  </div>
+
+  <HorizontalCard
+    title="Postfire Debris Flows"
+    img="/pfdf/pfdf.png"
+    desc="I'm building operational systems to produce and distribute postfire debris-flow hazard assessments for the USGS Landslide Hazards Program."
+    url="/postfire-debris-flows"
+    badge="USGS"
+  />
+
+  <div class="divider my-0"></div>
+
+  <HorizontalCard
+    title="Climate Data Assimilation"
+    img="/da/sam.png"
+    desc="Developing data assimilation methods to reconstruct the behavior of past climates."
+    url="/climate-data-assimilation"
+    badge="RESEARCH"
+  />
+
+</BaseLayout>
