@@ -12,6 +12,7 @@ const { tabNames } = Astro.props;
   <div class="tabs tabs-boxed bg-base-200 mb-6 max-w-md">
     {tabNames.map((name, index) => (
       <button 
+        id={name.toLowerCase()} 
         data-tab-index={index}
         class={`tab transition-all universal-tab-btn ${index === 0 ? 'tab-active' : ''}`}
       >
@@ -39,33 +40,55 @@ const { tabNames } = Astro.props;
 </style>
 
 <script>
-  // This client-side script safely handles all generalized tab instances on the page
-  const tabContainers = document.querySelectorAll('.text-tabs-container');
+  function setupTabs() {
+    const tabContainers = document.querySelectorAll('.text-tabs-container');
 
-  tabContainers.forEach(container => {
-    const buttons = container.querySelectorAll('.universal-tab-btn');
-    // Get all direct children elements passed into the slot wrapper
-    const wrapper = container.querySelector('.universal-tabs-wrapper');
-    if (!wrapper) return;
-    const contents = wrapper.children;
+    tabContainers.forEach(container => {
+      const buttons = container.querySelectorAll('.universal-tab-btn');
+      const wrapper = container.querySelector('.universal-tabs-wrapper');
+      if (!wrapper) return;
+      const contents = wrapper.children;
 
-    buttons.forEach(button => {
-      button.addEventListener('click', () => {
-        const targetIndex = parseInt(button.getAttribute('data-tab-index') || '0', 10);
+      // 1. Core Tab Switching Logic
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          const targetIndex = parseInt(button.getAttribute('data-tab-index') || '0', 10);
 
-        // 1. Toggle active classes on buttons
-        buttons.forEach(btn => btn.classList.remove('tab-active'));
-        button.classList.add('tab-active');
+          // Update active button classes
+          buttons.forEach(btn => btn.classList.remove('tab-active'));
+          button.classList.add('tab-active');
 
-        // 2. Toggle visibility on the slot's child blocks by updating style.display
-        Array.from(contents).forEach((content, index) => {
-          if (index === targetIndex) {
-            (content as HTMLElement).style.display = 'block';
-          } else {
-            (content as HTMLElement).style.display = 'none';
-          }
+          // Update visible content panels
+          Array.from(contents).forEach((content, index) => {
+            if (index === targetIndex) {
+              (content as HTMLElement).style.display = 'block';
+            } else {
+              (content as HTMLElement).style.display = 'none';
+            }
+          });
         });
       });
+
+      // 2. URL Hash Checking Logic
+      function checkUrlHash() {
+        const hash = window.location.hash.replace('#', '').toLowerCase();
+        if (hash) {
+          const targetButton = container.querySelector(`#${hash}`);
+          if (targetButton) {
+            (targetButton as HTMLElement).click();
+          }
+        }
+      }
+
+      // Check the URL when the page first finishes loading
+      checkUrlHash();
+
+      // Listen for URL changes if the user clicks a tab link on the same page
+      window.removeEventListener('hashchange', checkUrlHash); // Prevent duplicate listeners
+      window.addEventListener('hashchange', checkUrlHash);
     });
-  });
+  }
+
+  // Bind everything safely to Astro's client-side navigation engine
+  document.addEventListener('astro:page-load', setupTabs);
 </script>
