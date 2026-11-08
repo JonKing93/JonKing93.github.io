@@ -1,0 +1,94 @@
+---
+interface Props {
+  // An array of strings for the button labels, e.g., ["Publications", "Software"]
+  tabNames: string[];
+}
+
+const { tabNames } = Astro.props;
+---
+
+<div class="w-full text-tabs-container">
+  <!-- Tab Headers -->
+  <div class="tabs tabs-boxed bg-base-200 mb-6 max-w-md">
+    {tabNames.map((name, index) => (
+      <button 
+        id={name.toLowerCase()} 
+        data-tab-index={index}
+        class={`tab transition-all universal-tab-btn ${index === 0 ? 'tab-active' : ''}`}
+      >
+        {name}
+      </button>
+    ))}
+  </div>
+
+  <!-- Tab Contents Wrap (Enforced full width layout) -->
+  <div class="universal-tabs-wrapper w-full grid grid-cols-1">
+    <slot />
+  </div>
+</div>
+
+<style>
+  /* Force every slotted child to span full width */
+  .universal-tabs-wrapper > :global(*) {
+    width: 100%;
+    grid-column: 1 / -1;
+  }
+  /* On page load, hide all panels except the first child */
+  .universal-tabs-wrapper > :global(*:not(:first-child)) {
+    display: none;
+  }
+</style>
+
+<script>
+  function setupTabs() {
+    const tabContainers = document.querySelectorAll('.text-tabs-container');
+
+    tabContainers.forEach(container => {
+      const buttons = container.querySelectorAll('.universal-tab-btn');
+      const wrapper = container.querySelector('.universal-tabs-wrapper');
+      if (!wrapper) return;
+      const contents = wrapper.children;
+
+      // 1. Core Tab Switching Logic
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          const targetIndex = parseInt(button.getAttribute('data-tab-index') || '0', 10);
+
+          // Update active button classes
+          buttons.forEach(btn => btn.classList.remove('tab-active'));
+          button.classList.add('tab-active');
+
+          // Update visible content panels
+          Array.from(contents).forEach((content, index) => {
+            if (index === targetIndex) {
+              (content as HTMLElement).style.display = 'block';
+            } else {
+              (content as HTMLElement).style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 2. URL Hash Checking Logic
+      function checkUrlHash() {
+        const hash = window.location.hash.replace('#', '').toLowerCase();
+        if (hash) {
+          const targetButton = container.querySelector(`#${hash}`);
+          if (targetButton) {
+            (targetButton as HTMLElement).click();
+          }
+        }
+      }
+
+      // Check the URL when the page first finishes loading
+      checkUrlHash();
+
+      // Listen for URL changes if the user clicks a tab link on the same page
+      window.removeEventListener('hashchange', checkUrlHash); // Prevent duplicate listeners
+      window.addEventListener('hashchange', checkUrlHash);
+    });
+  }
+
+  // Bind everything safely to Astro's client-side navigation engine
+  document.addEventListener('astro:page-load', setupTabs);
+</script>
