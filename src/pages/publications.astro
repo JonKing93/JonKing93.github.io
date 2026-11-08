@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Tabs from "../components/Tabs.astro";
+
+import Papers from "../components/tabs/Papers.astro";
+import Software from "../components/tabs/Software.astro";
+---
+
+<BaseLayout title = "Publications" sideBarActiveItemID="publications">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Publications</div>
+  </div>
+
+  <div class="py-2 mb-6">
+      <text class="text-lg prose">
+      Use the tabs below to view my papers and software projects.
+  </div>
+
+  <Tabs tabNames={["Papers", "Software"]}>
+    <div class="w-full min-w-full box-border block">
+        <Papers />
+    </div>
+    <div class="w-full min-w-full box-border block">
+        <Software />
+    </div>
+  </Tabs>
+</BaseLayout>
